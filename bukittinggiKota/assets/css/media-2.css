@@ -1,0 +1,24 @@
+.vid-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.vid-element {
+  margin: 20px;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+iframe {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 240px;
+  width: 100%;
+}
+
+.vid-element h4 {
+  font-family: serif;
+  padding-bottom: 5px;
+  
+}
